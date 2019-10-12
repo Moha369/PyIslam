@@ -97,7 +97,3 @@ class Quran(object):
     			if self.verse == verse['verse_number']:
     				verse = {'ar' : verse['text_indopak'], 'en' : verse['translations'][0]['text'], 'verse_number' : verse['verse_number'], 'chapter_id' : verse['chapter_id']}
     				return verse
- 
-	
-q = Quran(chapter = 5, verse = 15)
-print(q.Verse['ar'])
