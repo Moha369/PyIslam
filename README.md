@@ -1,6 +1,7 @@
 # PyIslam
 
-PyIslam is a python library that provide easier way to get verses and soon hadith
+PyIslam is a python library that provide easier way to get verses and soon hadith.
+
 This Package uses https://Quran.com api to retrieve verses and some info
 
 # Examples
