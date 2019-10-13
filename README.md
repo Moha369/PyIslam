@@ -11,14 +11,14 @@ This Package uses https://Quran.com api to retrieve verses and some info
 * Get a random verse from quran
 
 ```python
-from PyIslam import Quran
+from pyislam import Quran
 
 Q = Quran()
 print(Q.get_random_verse)
 ```
 * Get a specific verse
 ```python
-from PyIslam import Quran
+from pyislam import Quran
 
 Q = Quran(chapter = 5, verse = 10)
 print(Q.Verse) # Case Sensitive
@@ -34,4 +34,3 @@ Coming Soon
 
 # Installing
   `pip install pyislam`
-
