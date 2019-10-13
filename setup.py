@@ -6,7 +6,7 @@ def long_desc():
 
 setuptools.setup(
     name = 'pyislam',
-    version = '0.1',
+    version = '0.1.1',
     author = 'Mohammed Shaawa',
     author_email = 'mshaawa963@gmail.com',
     description = 'An Islamic Python Package',
